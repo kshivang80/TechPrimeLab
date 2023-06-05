@@ -8,7 +8,7 @@ export const authlogin = (loginData) => async (dispatch) => {
     dispatch({ type: AUTH_USER_REQUEST });
 
     try {
-      const response = await axios.post('http://localhost:8080/login', loginData);
+      const response = await axios.post('https://jade-dove-kilt.cyclic.app/login', loginData);
       const data = response.data;
       console.log(data)
   

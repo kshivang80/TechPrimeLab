@@ -62,21 +62,21 @@ const Dashboard = () => {
 
 
   const fetchclosed=async()=>{
-    const res= await axios.get("http://localhost:8080/closedproject")
+    const res= await axios.get("https://jade-dove-kilt.cyclic.app/closedproject")
     setClose(res.data)
   }
   const fetchrunning=async()=>{
-    const res= await axios.get("http://localhost:8080/projectrunning")
+    const res= await axios.get("https://jade-dove-kilt.cyclic.app/projectrunning")
     setstartData(res.data)
     console.log(res.data,"kay chayei")
   }
 
   const fetchcancel=async()=>{
-    const res= await axios.get("http://localhost:8080/projectcanceled")
+    const res= await axios.get("https://jade-dove-kilt.cyclic.app/projectcanceled")
     setcancelData(res.data)
   }
   const fetchall=async()=>{
-    const res= await axios.get("http://localhost:8080/projecttotal")
+    const res= await axios.get("https://jade-dove-kilt.cyclic.app/projecttotal")
     settotalData(res.data)
   }
 

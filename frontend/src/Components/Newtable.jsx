@@ -42,7 +42,7 @@ export const Newtable = () => {
 
 
     let Allfetch=()=>{
-        axios.get(`http://localhost:8080/allproject?query=${query}&page=${currentPage}&limit=${perPage}`)
+        axios.get(`https://jade-dove-kilt.cyclic.app/allproject?query=${query}&page=${currentPage}&limit=${perPage}`)
         .then((res)=>{
             setData(res.data);
 
@@ -52,17 +52,7 @@ export const Newtable = () => {
         })
     }
 
-    // async function Allfetch() {
-    //     try {
-    //         const response = await fetch(
-    //             `https://techp.onrender.com/projects?query=${query}&page=${currentPage}&limit=${perPage}`
-    //         );
-    //         const data = await response.json();
-    //         setData(data);
-    //     } catch (error) {
-    //         console.error(error);
-    //     }
-    // }
+ 
 
 
     const handleLogout = () => {
@@ -75,7 +65,7 @@ export const Newtable = () => {
 
     const handleCancelChange = async (id) => {
         try {
-            const response = await axios.patch(`http://localhost:8080/cancelstatus/${id}`, {
+            const response = await axios.patch(`https://jade-dove-kilt.cyclic.app/cancelstatus/${id}`, {
                 status: 'Cancelled',
             });
             Allfetch();
@@ -88,7 +78,7 @@ export const Newtable = () => {
 
     const handleCloseChange = async (id) => {
         try {
-            const response = await axios.patch(`http://localhost:8080/closestatus/${id}`, {
+            const response = await axios.patch(`https://jade-dove-kilt.cyclic.app/closestatus/${id}`, {
                 status: 'Closed',
             });
             Allfetch();
@@ -101,7 +91,7 @@ export const Newtable = () => {
 
     const handleStartChange = async (id) => {
         try {
-            const response = await axios.patch(`http://localhost:8080/runstatus/${id}`, {
+            const response = await axios.patch(`https://jade-dove-kilt.cyclic.app/runstatus/${id}`, {
                 status: 'running',
             });
             Allfetch();
@@ -162,9 +152,9 @@ export const Newtable = () => {
                         <Select   value={query} onChange={handleQueryData} m="auto"   size="lg">
                             <option value="priority">priority</option>
                             <option value="type">type</option>
-                            <option value="Location">Location </option>
-                            <option value="Status">Status</option>
-                            <option value="Reason">Reason</option>
+                            <option value="location">Location </option>
+                            <option value="status">Status</option>
+                            <option value="reason">Reason</option>
                             <option value="category">category </option>
                         </Select>
                     </Box>

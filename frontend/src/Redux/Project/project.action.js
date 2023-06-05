@@ -66,7 +66,7 @@ function postProjects(payload){
 
         dispatch(getProjectRequest())
         return axios
-        .post("http://localhost:8080/create",payload)
+        .post("https://jade-dove-kilt.cyclic.app/create",payload)
         .then((r)=>{
             dispatch(getProjectSuccess(r.data))
             console.log(r.data)
@@ -80,7 +80,7 @@ function postProjects(payload){
 
  const getProjects=(params)=>(dispatch)=>{
     dispatch(getProjectRequest())
-    axios.get(`http://localhost:8080/allproject`,params)
+    axios.get(`https://jade-dove-kilt.cyclic.app/allproject`,params)
     .then((r)=>{
         console.log(r.data)
         dispatch(getProjectSuccess(r.data))
