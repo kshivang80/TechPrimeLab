@@ -1,0 +1,346 @@
+
+.mainDiv{
+    display: flex;
+    /* border: 1px solid red; */
+    height: auto;
+    width: 100%;
+
+
+}
+.NavbarDiv{
+    width:6%;
+    border: 2px solid black;
+}
+.projectMainDiv{
+    /* margin-left: 100px; */
+    width:100%;
+
+}
+.bgBlue1 {
+    height: 200px;
+    width: 100%;
+    border:0.1px solid #6699CC;
+    
+    border-bottom-left-radius: 40px;
+
+}
+
+/* .triaDiv{
+    border:1px solid blue;
+    height:250px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+
+} */
+
+.trangle1 {
+    display: flex;
+  
+    height: 85px;
+    width: 100%;
+    /* border:1px solid red; */
+    margin-top: 40px;
+
+}
+
+.image1 {
+    height: 100%;
+    width: 30%;
+    margin: auto;
+    /* border:1px solid white; */
+}
+
+.text420{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    /* border:1px solid black; */
+  
+
+}
+.icone{
+    margin-top: 20px;
+    height:40px;
+    width:20px;
+    margin-left: 40px;
+    color: white;
+}
+.create{
+   margin-top: 23px;
+   font-size: 21px;
+   margin-left: 20px;
+   color: white;
+   font-weight: bold;
+
+}
+.blank{
+    height: 100%;
+    width: 30%;
+
+}
+
+/* ......................*/
+
+.mainFormDiv{
+    border:1px solid white;
+    width:95%;
+    height:auto;
+    
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+    padding-bottom: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.project{
+    margin-top: 30px;
+    /* border: 1px solid blue; */
+    height:150px;
+    padding: 10px;
+
+}
+
+.project1{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    justify-content: space-between;
+}
+.projectInput{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 55%;
+}
+.inputProject{
+    height:90px;
+    font-size: 18px;
+    border:2px solid gray;
+    width:100%;
+    border-radius: 10px;
+}
+.projectButton{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 20%;
+}
+.projectButtonSmall{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+
+}
+.buttonSubmit{
+  
+  height:40px;
+  width:180px;
+ border-radius: 20px;
+ margin-top: 20px;
+ background-color: blue;
+ color: white;
+
+    
+}
+.formData{
+    /* border: 1px solid black; */
+    width: 80%;
+    /* margin: auto; */
+    height:auto;
+    padding: 10px;
+
+}
+.statusDiv{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 60px;
+}
+.small{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+.big{
+    font-size: 21px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    margin-top: -4px;
+   font-weight: 500;
+    color:gray;
+}
+
+
+
+@media screen and (min-width: 769px) {
+    /* STYLES HERE */
+    .projectButtonSmall{
+        display:none;
+    }
+    .logoutBtn{
+        display:none;
+    }
+ }
+ 
+ @media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    /* STYLES HERE */
+    .projectButtonSmall{
+        display:none;
+    }
+    .logoutBtn{
+        display:none;
+    }
+    .projectButton{
+        display:none;
+    }
+ }
+ 
+ @media only screen and (max-device-width: 480px) {
+    /* STYLES HERE */
+    .bgBlue1 {
+        height: 130px;
+        width: 100%;
+        /* border:1px solid red; */
+        border-bottom-left-radius: 40px;
+    
+    }
+    .projectMainDiv{
+        width:100%;
+
+    
+    }
+    .NavbarDiv{
+        display:none;
+    }
+    .projectButton{
+        display:none;
+    }
+    .image1{
+        display:none;
+    }
+    .projectButtonSmall{
+        /* border: 1px solid black; */
+        height: 100%;
+        width: 100%;
+    
+    }
+    .buttonSubmitSmall{
+  
+        height:40px;
+        width:100%;
+       border-radius: 10px;
+      
+       background-color: blue;
+       color: white;
+       font-size: 23px;
+      
+          
+      }
+    .formData{
+        
+        width: 100%;
+        /* margin: auto; */
+        height:auto;
+    
+    }
+    .hide1{
+        display:none;
+    }
+    .projectInput{
+        /* border: 1px solid black; */
+        height: 100%;
+        width: 100%;
+    }
+    .inputProject{
+        height:85px;
+        font-size: 18px;
+        border:2px solid gray;
+        width:100%;
+        border-radius: 10px;
+    }
+    .project{
+        margin-top: 30px;
+        /* border: 1px solid blue; */
+        height:110px;
+    
+    }
+
+    /* /////////////////// */
+    .trangle1 {
+
+        display: flex;
+      
+        height: 60px;
+        width: 100%;
+        /* border:1px solid red; */
+        margin-top: 20px;
+    
+    }
+    
+    .image1 {
+        height: 100%;
+        width: 30%;
+        margin: auto;
+        /* border:1px solid white; */
+    }
+    
+    .text420{
+        
+        height: 100%;
+        width: 50%;
+        /* border:1px solid black; */
+      
+    
+    }
+    .iconeDiv{
+        width:20%;
+        margin-left: -32px;
+
+    }
+    .textDiv99{
+        width:80%;
+        margin-left: 12px;
+        margin-top: -10px;
+    }
+    .icone{
+        margin-top: 15px;
+        height:25px;
+        width:60%;
+        /* border:1px solid black; */
+        color: white;
+       
+    }
+    .create{
+        width: 100%;
+        /* border:1px solid black; */
+         font-size: 19px;
+      
+       color: white;
+       font-weight: bold;
+    
+    }
+    .blank{
+        height: 100%;
+        width: 50%;
+        /* border: 1px solid yellow; */
+       
+       display: flex;
+       justify-content: end;
+       margin-left: -10px;
+    
+    }
+    .logoutBtn{
+        width:35px;
+        height:40px;
+        color: white;
+        margin-top: 10px;
+        
+       
+    }
+   
+ }
+
+

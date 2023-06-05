@@ -1,0 +1,57 @@
+.App{
+    display: flex;
+}
+.appNav{
+    width:6%;
+    /* border:1px solid pink; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.appRoutes{
+    width:94%
+}
+.appRoutesLogin{
+    width: 100%;
+}
+
+
+
+@media screen and (min-device-width: 769px)  {
+
+    /* STYLES HERE */
+    .bottomNav{
+        display: none;
+    }
+   
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+
+     /* STYLES HERE */
+     .bottomNav{
+        display: none;
+    }
+     .appNav{
+        display: none;
+    }
+    .appRoutes{
+        width:100%
+    }
+   
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    /* STYLES HERE */
+    .appNav{
+        display: none;
+    }
+
+    .appRoutes{
+        width:100%
+    }
+    .appRoutesLogin{
+        width: 100%;
+    }
+
+ 
+}

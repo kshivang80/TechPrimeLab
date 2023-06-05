@@ -1,0 +1,386 @@
+
+/* .slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 31px !important;
+  line-height: 1;
+  opacity: 0.75;
+  color: rgb(31, 29, 29) !important;
+  
+  margin-left: -26.5px;
+  
+   display:none !important; 
+ 
+} */
+.justOffer-card .slick-prev,
+.justOffer-card .slick-next {
+  display: none !important;
+}
+
+
+/* ///////////////// *******************************/
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+
+  /* ////////********************/
+
+.mainDashboard{
+    height:auto;
+    /* border:1px solid black */
+}
+
+.bgBlue1dash {
+    height: 200px;
+    width: 100%;
+    border:0.1px solid #6699CC;
+    
+    border-bottom-left-radius: 40px;
+
+}
+
+/* .triaDiv{
+    border:1px solid blue;
+    height:250px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+
+} */
+
+.trangle1dash {
+    display: flex;
+  
+    height: 85px;
+    width: 100%;
+    /* border:1px solid red; */
+    margin-top: 40px;
+
+}
+
+.image1dash {
+    height: 100%;
+    width: 30%;
+    margin: auto;
+    /* border:1px solid white; */
+}
+
+.text420dash{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    /* border:1px solid black; */
+  
+
+}
+.iconedash{
+    margin-top: 20px;
+    height:40px;
+    width:20px;
+    margin-left: 40px;
+    color: white;
+}
+.createdash{
+   margin-top: 23px;
+   font-size: 30px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: white;
+  font-weight: 500;
+
+}
+.blankdash{
+    height: 100%;
+    width: 30%;
+
+}
+
+.mainCrousal{
+    /* border:1px solid red; */
+    width:98%;
+    height: 150px;
+    margin: auto;
+    margin-top: -30px;
+}
+
+/* //////// crousal////////// */
+
+.justOffer-cardtop {
+    /* height: 70px;
+      width: 30%;
+      margin: auto; */
+    /* border: 1px solid black; */
+    display: "flex";
+    height:120px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .justOffer-cardtop1 {
+    /* border: 1px solid black; */
+    background-color: #00BFFF;
+    width: 3%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  
+  
+  .justOffer-cardbottom {
+    height: 100%;
+    width: 97%; 
+    /* border:1px solid red; */
+    margin-left: 15px;
+    overflow: hidden;
+  }
+  
+  .nameDiv{
+    font-size: 21px;
+    color:gray;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    
+
+  }
+  .numberDiv{
+    font-size: 51px;
+    font-weight: bold;
+    color: rgb(59, 59, 59);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+  }
+  .graphTextDiv{
+    /* border: 1px solid yellow; */
+    height: 50px;
+    width: 97%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .garphText{
+    font-size: 25px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+  }
+  .bigGarph{
+    height: 460px;
+    width: 98%; 
+    /* border:1px solid red; */
+    /* display: flex; */
+  }
+
+  .graphDiv{
+    height: 100%;
+    width: 50%; 
+    /* border:1px solid red; */
+    padding: 20px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 20px;
+    
+  }
+ 
+
+  .barChart{
+     width:100%;
+     height:100%;
+     margin-top: 40px;
+  }
+  .smallBar{
+    height: 100%;
+    width: 100%; 
+    /* border:1px solid red; */
+  
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    
+}
+
+
+
+
+
+@media screen and (min-width: 769px) {
+    /* STYLES HERE */
+    .smallBar{
+        display: none;
+    }
+   
+    .logoutBtndash{
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    /* STYLES HERE */
+    .smallBar{
+        display: none;
+    }
+   
+    .logoutBtndash{
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* STYLES HERE */
+
+
+
+    /* ///// crousal things  //////// */
+    .mainCrousal{
+        /* border:1px solid red; */
+        width:98%;
+        height: 100px;
+        margin: auto;
+        margin-top: -30px;
+    }
+
+    .justOffer-cardtop {
+        /* height: 70px;
+          width: 30%;
+          margin: auto; */
+          width: 100%;
+        /* border: 1px solid black; */
+        display: "flex";
+        height:80px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+        background-color: white;
+      }
+      .justOffer-cardtop1 {
+        /* border: 1px solid black; */
+        background-color: #00BFFF;
+        width: 10%;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+      }
+      
+      
+      
+      .justOffer-cardbottom {
+        height: 100%;
+        width: 90%; 
+        /* border:1px solid red; */
+        margin-left: 10px;
+        overflow: hidden;
+      }
+      
+      .nameDiv{
+        font-size: 14px;
+        color:gray;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 5px;
+        
+    
+      }
+      .numberDiv{
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(59, 59, 59);
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+      }
+
+/* ///// crousal things  //////// */
+
+    .bgBlue1dash {
+        height: 130px;
+        width: 100%;
+        /* border:1px solid red; */
+        border-bottom-left-radius: 40px;
+    
+    }
+    .trangle1dash {
+
+        display: flex;
+      
+        height: 60px;
+        width: 100%;
+        /* border:1px solid red; */
+        margin-top: 20px;
+    
+    }
+    .text420dash{
+        
+        height: 100%;
+        width: 50%;
+        /* border:1px solid black; */
+      
+    
+    }
+    .image1dash{
+        display:none;
+    }
+    .createdash{
+        width: 100%;
+        /* border:1px solid black; */
+         font-size: 19px;
+      
+       color: white;
+       font-weight: bold;
+    
+    }
+    .blankdash{
+        height: 100%;
+        width: 50%;
+        /* border: 1px solid yellow; */
+       
+       display: flex;
+       justify-content: end;
+       margin-left: -10px;
+    }
+    .logoutBtndash{
+        width:35px;
+        height:40px;
+        color: white;
+        margin-top: 10px;
+       
+        
+       
+    }
+    .graphTextDiv{
+        /* border: 1px solid yellow; */
+        height: 50px;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+      }
+      .garphText{
+        font-size: 18px ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-weight: 500;
+      }
+    .bigGarph{
+        height: 450px;
+        width: 100%; 
+        /* border:1px solid red; */
+       
+      }
+    .graphDiv{
+       display: none;
+       
+        
+      }
+      .smallBar{
+        height: 500px;
+        width: 100%; 
+        background-color: white;
+        /* border:1px solid red; */
+      
+       
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+        
+    }
+    
+    
+}
+  
+ 
