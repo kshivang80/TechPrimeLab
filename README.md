@@ -1,4 +1,6 @@
 # TechPrimeLab.com
+  * Email : admin@gmail.com
+  * Password : admin
 
 ## Objective:
 This is a basic website where user see all projects which are pending and which are completed.
@@ -15,7 +17,7 @@ Overall , Our website provides a comprehensive solution for project management, 
 ![Screenshot (112)](https://github.com/kshivang80/TechPrimeLab/assets/103144321/a0edcfdc-c380-4f2a-851f-7a353e8021a1)
 
 * Email : admin@gmail.com
-* Password :admin
+* Password : admin
 
 # Dashboard-Page
 ![Screenshot (104)](https://github.com/kshivang80/TechPrimeLab/assets/103144321/21d9be6d-118a-4ebe-9091-97b755d524cc)
