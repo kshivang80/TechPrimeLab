@@ -40,6 +40,15 @@ Overall , Our website provides a comprehensive solution for project management, 
         * Chakra Ui
         * External CSS Libraries (Styled-Components, framer-motion)
         
+    2) Back-end:
+        * Node
+        * Express
+        * Mongoose (server-databse)
+        * www.cyclic.sh (To Deploy Server)
+
+    3) DataBase:
+        * MongoDB (MongoDB Atlas)
+        
 ## Dependencies:
 
 ### Front-end
@@ -54,6 +63,16 @@ Overall , Our website provides a comprehensive solution for project management, 
     8) react-slick
     9) axios
     10) redux, redux thunk, react-redux
+    11) chartJS
+    
+   ### Backend
+
+    1) express
+    2) cors
+    3) dotenv
+    4) mongoose
+    5) nodemon
+
     
   
 ## Setting Up Project in local
@@ -74,6 +93,35 @@ Overall , Our website provides a comprehensive solution for project management, 
 #### 3) Making Production ready folder
 
     npm run build
+    
+### Server
+
+#### 1) Setting up node environment
+
+    1) navigate to Back-end directory
+    2) use node version 16 or higher. version 18 is recommended
+    3) run command npm install
+
+
+#### 1) Starting Server in deployment
+
+    npm start
+
+#### 1) Starting Server with nodemon on locahost
+
+    npm run server
+
+### Database: MongoDB
+
+#### 1) Atlas
+
+    in .env file provide MONGODB_URL with proper credentials
+
+#### 2) Local database
+
+    if MONGODB_URL not declared in .env, by default it will connect to local data base
+
+    in case not working try changing MONGODB_URL in Back-end/config/db.js
 
 
 
